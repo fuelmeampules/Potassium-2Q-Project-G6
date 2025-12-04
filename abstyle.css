@@ -1,0 +1,224 @@
+body {
+    margin: 0;
+    padding: 0;    
+    background-image: linear-gradient(rgb(255, 229, 173), rgb(255, 221, 169));
+    background-size: 1264px 1264px;
+    background-position: relative;
+}
+
+.header {
+    margin-top: -1.5rem;
+    background-color: rgb(255, 174, 0);
+}
+    .header h1 {
+        padding-top: 1.5rem;
+        text-align: center;
+    }
+    .header h3 {
+        padding-top: 0.1rem;
+        text-align: center;
+        padding-bottom: 1rem;
+    }
+    .about button {
+        background-color: rgb(255, 174, 0);
+        border: 0;
+        position: absolute;
+        margin-left: 74rem;   
+        margin-top: -5.5rem; 
+    }
+
+    .about a{
+        text-decoration: none;
+        color: black;
+    }
+
+    .index button {
+        background-color: rgb(255, 174, 0);
+        border: 0;
+        position: absolute;
+        margin-left: 69rem;   
+        margin-top: -5.5rem; 
+    }
+
+    .index a{
+        text-decoration: none;
+        color: black;
+    }
+
+    .category{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 2rem;
+        margin: 3.5rem 0;
+        
+    }
+
+    .category a{
+        text-decoration: none;
+        color: black;
+        font-weight: 600;
+        letter-spacing: 1px;
+    }
+
+    .category-nav{
+        text-align: right;
+    }
+
+    a:hover{
+        color: #eb6309;
+        transition: 0.2s;
+    }
+    .l1 {
+    border-bottom: solid rgb(173, 103, 28) 0.1rem;
+    }
+
+
+
+/*this is the main text*/
+
+.capt h1 {
+    font-family:Arial, Helvetica, sans-serif;
+    padding-left: 2rem;
+}
+    .capt h4 {
+        font-family: monospace;
+        padding-left: 2rem;
+    }
+    .capt h3 {
+        padding-left: 2rem;
+        display:block;
+            width: 35rem;
+            line-height: 1.8rem;
+    }
+
+    .zoe img {
+        height: 12rem;
+        width:17rem;
+        margin-top: 9rem;
+        margin-left: 2rem;
+        border: transparent;
+        border-radius: 2rem;
+    }
+        .zoe h6 {
+            font-family: Arial, Helvetica, sans-serif;
+            margin-top: 0.5rem;
+            margin-left: 2rem;
+        }
+        .zoe h3 {
+            margin-top: -1rem;
+            margin-left: 2rem;
+        }
+        .zoe h4 {
+            font-family: Arial, Helvetica, sans-serif;
+            margin-top: -0.4rem;
+            margin-left: 2rem;
+        }
+
+
+    .ace img {
+        position: absolute;
+        height: 12rem;
+        width:17rem;
+        margin-top: -13rem;
+        margin-left: 21rem;
+        border: transparent;
+        border-radius: 2rem;
+    }
+        .ace h6 {
+            font-family: Arial, Helvetica, sans-serif;
+            margin-top: -6rem;
+            margin-left: 21rem;
+        }
+        .ace h3 {
+            margin-top: -1rem;
+            margin-left: 21rem;
+        }
+        .ace h4 {
+            font-family: Arial, Helvetica, sans-serif;
+            margin-top: -0.4rem;
+            margin-left: 21rem;
+        }
+
+    .charla img {
+        position: absolute;
+        height: 12rem;
+        width:17rem;
+        margin-top: -13rem;
+        margin-left: 40rem;
+        border: transparent;
+        border-radius: 2rem;
+    }
+        .charla h6 {
+            font-family: Arial, Helvetica, sans-serif;
+            margin-top: -6rem;
+            margin-left: 40rem;
+        }
+        .charla h3 {
+            margin-top: -1rem;
+            margin-left: 40rem;
+        }
+        .charla h4 {
+            font-family: Arial, Helvetica, sans-serif;
+            margin-top: -0.4rem;
+            margin-left: 40rem;
+        }
+
+    .chelsea img {
+        position: absolute;
+        height: 12rem;
+        width:17rem;
+        margin-top: -13rem;
+        margin-left: 59rem;
+        border: transparent;
+        border-radius: 2rem;
+    }
+        .chelsea h6 {
+            font-family: Arial, Helvetica, sans-serif;
+            margin-top: -6rem;
+            margin-left: 59rem;
+        }
+        .chelsea h3 {
+            margin-top: -1rem;
+            margin-left: 59rem;
+        }
+        .chelsea h4 {
+            font-family: Arial, Helvetica, sans-serif;
+            margin-top: -0.4rem;
+            margin-left: 59rem;
+        }
+
+    
+.end h3 {
+     font-family: Arial, Helvetica, sans-serif;
+     padding-top: 2.5rem;
+     padding-left: 2rem;
+     display:block;
+        width: 35rem;
+        line-height: 1.8rem;
+}   
+
+    .dive h2 {
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        padding-top: 6.7rem;
+        text-align: center;
+
+        
+    }
+
+
+.foot {
+    background-color: rgb(255, 174, 0);
+    margin-top: 4rem;
+    height: 12rem;
+}
+    .foot h1 {
+        
+        text-align: center;
+        padding-top: 5rem;
+    }
+    .foot h3 {
+       
+        text-align: center;
+        margin-top: -1rem;
+    }

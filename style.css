@@ -1,0 +1,263 @@
+body {
+    margin: 0;
+    padding: 0;    
+    background-image: linear-gradient(rgb(255, 229, 173), rgb(255, 221, 169));
+    background-size: 1264px 1264px;
+    background-position: relative;
+}
+
+.header {
+    margin-top: -1.5rem;
+    background-color: rgb(255, 174, 0);
+}
+    .header h1 {
+        padding-top: 1.5rem;
+        text-align: center;
+    }
+    .header h3 {
+        padding-top: 0.1rem;
+        text-align: center;
+        padding-bottom: 1rem;
+    }
+    .about button {
+        background-color: rgb(255, 174, 0);
+        border: 0;
+        position: absolute;
+        margin-left: 74rem;   
+        margin-top: -5.5rem; 
+    }
+
+    .about a{
+        text-decoration: none;
+        color: black;
+    }
+
+    .index button {
+        background-color: rgb(255, 174, 0);
+        border: 0;
+        position: absolute;
+        margin-left: 69rem;   
+        margin-top: -5.5rem; 
+    }
+
+    .index a{
+        text-decoration: none;
+        color: black;
+    }
+
+.category{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    margin: 3.5rem 0;
+    
+}
+
+    .category a{
+        text-decoration: none;
+        color: black;
+        font-weight: 600;
+        letter-spacing: 1px;
+    }
+
+    .category-nav{
+        text-align: right;
+    }
+
+a:hover{
+    color: #eb6309;
+    transition: 0.2s;
+}
+
+.l1 {
+  border-bottom: solid rgb(173, 103, 28) 0.1rem;
+}
+.pol1 img {
+    height: 20rem;
+    border: transparent;
+    border-radius: 2rem;
+    margin-left: 5rem;
+    margin-top: 5rem;
+}
+    .pol1 h3 {
+        font-family: 'Courier New', Courier, monospace;
+        display:flex;
+        margin-left: 5.5rem;
+        text-align: left;
+    }
+    .pol1 h2 {
+        display:block;
+        margin-left: 7rem;
+        text-align: center;
+        width:15rem;
+    }
+        .pol1 a {
+            text-decoration: none;
+            color:black;
+        }
+        .pol1 a:hover {
+            color: #eb6309;
+            transition: 0.2s;
+        }
+    .pol1 h4 {
+        display: block;
+            text-align: center;
+            width: 15rem;
+            margin-left: 6.7rem;
+    }
+    .l2 {
+        position:absolute;
+        border-right: solid rgb(173, 103, 28) 0.1rem;
+        height: 54rem;
+        margin-top: -41.4rem;
+        margin-left: 30rem;
+    }
+
+.ent1 img {
+    position:absolute;
+    height: 20rem;
+    border: transparent;
+    border-radius: 2rem;
+    margin-left: 35rem;
+    margin-top: -36rem;
+}
+    .ent1 h3 {
+        font-family: 'Courier New', Courier, monospace;
+        position: absolute;
+        margin-left: 35rem;
+        text-align: left;
+        margin-top: -12.3rem;
+    }
+   
+    .ent1 h2 {
+        position:absolute;
+        margin-left: 39.5rem;
+        text-align: center;
+        margin-top: -10rem; 
+    }
+      .ent1 a {
+            text-decoration: none;
+            color:black;
+        }
+        .ent1 a:hover {
+            color: #eb6309;
+            transition: 0.2s;
+        }
+    .ent1 h4 {
+        position: absolute;
+        display: block;
+            text-align: center;
+            width: 15rem;
+            margin-left: 37rem;
+            margin-top: -7rem;
+    }
+    .l3 {
+        position:absolute;
+        border-right: solid rgb(173, 103, 28) 0.1rem;
+        height: 54rem;
+        margin-top: -41.4rem;
+        margin-left: 58rem;
+    }
+
+.edu1 img {
+    height: 11rem;
+    width: 18rem;
+    position: absolute;
+    margin-left: 60rem;
+    margin-top: -39rem;
+        border: transparent;
+        border-radius: 1.2rem;
+}
+    .edu1 h2 {
+        position:absolute;
+        margin-left: 59rem;
+        margin-top: -27rem;
+        padding-bottom: 1rem;
+    }
+        .edu1 a {
+            text-decoration: none;
+            color:black;
+        }
+        .edu1 a:hover {
+            color: #eb6309;
+            transition: 0.2s;
+        }
+    .edu1 h3 {
+        position:absolute;
+        margin-top: -23rem;
+        margin-left: 59rem;
+    }
+    .edu1 h5 {
+        font-family: 'Courier New', Courier, monospace;
+        position:absolute;
+        margin-top: -18rem;
+        margin-left: 59rem;
+    }
+    .l4 {
+        border-bottom: solid rgb(173, 103, 28) 0.1rem;
+        height: 1rem;
+        margin-left: 58rem;
+        margin-top: -16rem;
+        text-align: right;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+
+.edu2 img {
+    height: 11rem;
+    width: 18rem;
+    position: absolute;
+    margin-left: 60rem;
+    margin-top: 1rem;
+        border: transparent;
+        border-radius: 1.2rem;
+}
+
+    .edu2 h2 {
+        position:absolute;
+        margin-left: 59rem;
+        margin-top: 13rem;
+        padding-bottom: 1rem;
+    }
+        .edu2 a {
+            text-decoration: none;
+            color:black;
+        }
+        .edu2 a:hover {
+            color: #eb6309;
+            transition: 0.2s;
+        }
+    .edu2 h3 {
+        position:absolute;
+        margin-top: 19rem;
+        margin-left: 59rem;
+    }
+    .edu2 h5 {
+        font-family: 'Courier New', Courier, monospace;
+        position:absolute;
+        margin-top: 25rem;
+        margin-left: 59rem;
+    }
+
+
+
+
+
+
+
+
+.foot {
+    background-color: rgb(255, 174, 0);
+    margin-top: 30rem;
+    height: 12rem;
+}
+    .foot h1 {
+        
+        text-align: center;
+        padding-top: 5rem;
+    }
+    .foot h3 {
+       
+        text-align: center;
+        margin-top: -1rem;
+    }
